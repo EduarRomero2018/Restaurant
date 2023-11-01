@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.backgroundhome {
+    background-color: rgb(103, 219, 25);
+}
