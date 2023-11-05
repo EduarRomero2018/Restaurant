@@ -66,10 +66,6 @@ nav {
   background-color: rgb(102, 196, 52);
 }
 
-.QuienesSomos {
-  background-color: rgba(201, 213, 157, 0.881);
-}
-
 .card-img-top {
   height: 350px;
 }
@@ -93,11 +89,7 @@ nav {
 }
 
 /* estilos tarjetas */
-.style_hover{
-  cursor: pointer;
-  height: 400px;
 
-}
 
 /* estilos navbar */
 nav img{
@@ -110,3 +102,4 @@ nav img{
 background: rgb(33,37,41);
 background: linear-gradient(180deg, rgba(33,37,41,1) 14%, rgba(153,30,177,1) 100%);
 }
+

@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav text-white">
                         <NavLink to="/" className="nav-link">Inicio</NavLink>
-                        <NavLink to="./Login" className="nav-link">Registro</NavLink>
+                        <NavLink to="./Login" className="nav-link">Reservar</NavLink>
                         <NavLink to="./QuienesSomos" className="nav-link">Quienes Somos</NavLink>
                         <NavLink to="./MyOrders" className="nav-link">Mis Ordenes</NavLink>
                         <NavLink to="./Categories" className="nav-link">Categorias</NavLink>
