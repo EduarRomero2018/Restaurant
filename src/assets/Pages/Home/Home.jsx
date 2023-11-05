@@ -1,7 +1,7 @@
 import carta from '../../Images/carta.jpg';
 import platos from '../../Images/platos.jpg';
 import reservas from '../../Images/reservas.jpg';
-
+import Login from '../LogIn/Login';
 
 
 // Objeto de las imagenes
@@ -19,7 +19,7 @@ export const Home = () => {
   return (
     <>
       <div className=" container p-3 backgroundhome text-white rounded ">
-        <h1 className='text-center primary_title'>Bienvenido a Restaurant </h1>
+        <h1 className='text-center primary_title'>Bienvenido a Mapale </h1>
         <p className='text-center secondary_title'>Aplicación realizada con React</p>
       </div>
 
@@ -37,7 +37,7 @@ export const Home = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 mt-2">
             <div className="card">
               <img className="card-img-top" src={platos} alt="Card image" />
               <div className="card-img-overlay">
