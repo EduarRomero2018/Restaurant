@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
-.backgroundmyorders {
-    background-color: rgb(203, 219, 25);
+.styles_title h1{
+    font-family: var(--tipografia_principal);
+    font-size: 60px;
+    color: rgb(255, 255, 255);
 }
+
 
