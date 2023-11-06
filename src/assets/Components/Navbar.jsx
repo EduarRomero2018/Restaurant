@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Images/mi_logo.jpg";
+import Logo from "../Images/mi_logo.png";
 
 // importamos navlink para enlazar las paginas con los componentes
 import { NavLink } from "react-router-dom";
@@ -20,7 +20,7 @@ const Navbar = () => {
                         <NavLink to="./Login" className="nav-link">Reservar</NavLink>
                         <NavLink to="./QuienesSomos" className="nav-link">Quienes Somos</NavLink>
                         <NavLink to="./MyOrders" className="nav-link">Mis Ordenes</NavLink>
-                        <NavLink to="./Categories" className="nav-link">Categorias</NavLink>
+                        {/* <NavLink to="./Categories" className="nav-link">Categorias</NavLink> */}
                     </ul>
                 </div>
             </div>
