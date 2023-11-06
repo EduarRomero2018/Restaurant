@@ -14,8 +14,6 @@ import Login from '../LogIn/Login';
 
 
 export const Home = () => {
-
-
   return (
     <>
       <div className=" container p-3 backgroundhome text-white rounded ">
@@ -57,7 +55,6 @@ export const Home = () => {
               </div>
             </div>
           </div>
-
 
         </div>
       </div>
