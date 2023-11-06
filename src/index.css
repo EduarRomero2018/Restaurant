@@ -19,15 +19,15 @@
   box-sizing: border-box;
 }
 
-
-html, body {
-  height:100%;
+html {
+  min-height: 100%;
+  position: relative;
 }
 
-body {
 
-  /* background: rgb(33,37,41);
-background: linear-gradient(180deg, rgba(33,37,41,1) 14%, rgba(108,109,141,1) 100%); */
+body {
+  margin: 0;
+  margin-bottom:10px;
 background: rgb(63,94,251);
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 
@@ -103,3 +103,18 @@ background: rgb(33,37,41);
 background: linear-gradient(180deg, rgba(33,37,41,1) 14%, rgba(153,30,177,1) 100%);
 }
 
+
+footer .style_footer{
+
+  background-color: white;
+  color: #636a6ffc;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+footer img{
+  width: 100px;
+}
