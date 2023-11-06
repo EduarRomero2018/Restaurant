@@ -7,8 +7,9 @@ import NotFound from "../../Components/NotFound";
 import Home from "../Home/Home";
 import Login from "../LogIn/Login";
 import MyOrders from "../MyOrders/MyOrders";
-import Categories from "../Categorias/Categories";
-import QuienesSomos from '../QuienesSomos/QuienesSomos';
+import Categories from "../Category/Categories";
+import AboutUs from "../AboutUs/AboutUs";
+import Footer from '../../Components/Footer';
 
 // creamos un array de objetos con las rutas a enlazar
 const AppRoutes = () => {
@@ -18,7 +19,7 @@ const AppRoutes = () => {
     { path: "/login", element: <Login /> },
     { path: "/Categories", element: <Categories /> },
     { path: "/myorders", element: <MyOrders /> },
-    { path: "/QuienesSomos", element: <QuienesSomos /> },
+    { path: "/QuienesSomos", element: <AboutUs /> },
     { path: "/*", element: <NotFound /> },
 
   ]);
@@ -32,6 +33,7 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <AppRoutes />
+      {/* <Footer/> */}
     </BrowserRouter>
 
   );
