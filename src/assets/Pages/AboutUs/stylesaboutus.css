@@ -34,6 +34,10 @@
     .card-title{
         color: rgb(5, 5, 5);
     }
+    .styles_icon{
+        font-size: 30px;
+        color: black;
+    }
 }
 
 .bg_color{
@@ -62,9 +66,16 @@
 
 .list_values li{
     list-style: none;
-    font-family: var(--Alumni);
-    font-size: 18px;
+    font-family: var(--Alumni);    font-size: 18px;
+}
 
+.styles_icon{
+    font-size: 30px;
+    color: white;
+}
 
+.styles_icon_values{
+    font-size: 30px;
+    color: black;
 }
 

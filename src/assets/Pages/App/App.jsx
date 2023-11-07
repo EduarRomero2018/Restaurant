@@ -3,6 +3,7 @@ import { useRoutes, BrowserRouter } from 'react-router-dom';
 // importamos los componentes
 import Navbar from "../../Components/Navbar";
 import NotFound from "../../Components/NotFound";
+import { CiBookmarkPlus } from "react-icons/ci";
 // importamos las paginas
 import Home from "../Home/Home";
 import Login from "../LogIn/Login";
