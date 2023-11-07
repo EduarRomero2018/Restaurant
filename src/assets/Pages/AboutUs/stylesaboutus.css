@@ -35,3 +35,36 @@
         color: rgb(5, 5, 5);
     }
 }
+
+.bg_color{
+    background-color: white;
+}
+
+.fondo{
+    background-color: white;
+    /* border-radius: 5px; */
+}
+
+.img_reservas{
+    width: 500px;
+}
+
+.color_text h2 {
+    color: black;
+}
+
+.title_values{
+    font-family: var(--tipografia_principal);
+  font-size: 45px;
+  color: rgb(28, 26, 26);
+  text-align: center;
+}
+
+.list_values li{
+    list-style: none;
+    font-family: var(--Alumni);
+    font-size: 18px;
+
+
+}
+
