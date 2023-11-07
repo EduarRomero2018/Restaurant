@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
-import login from '../../Images/1.jpg';
+import login from '../../Images/1.png';
 import './styleslogin.css';
 // importaciones de sweetalert
 import Swal from 'sweetalert2'
@@ -83,48 +83,45 @@ const Login = () => {
     return (
         <>
             <div className="container mt-2">
-                <div className="row mt-5">
-                    <div className="col-md-6 style_hover">
-                        <div className="card">
-                            <img className="card-img-top" src={login} alt="Card image" />
-                            <div className="card-img-overlay">
-                                {/* <h4 className="card-title">Iniciar Sesion</h4> */}
-                                {/* <a href="#" className="btn btn-dark">Ver Carta</a> */}
-                            </div>
+                <div className="row">
+                    <div className="col-md-6 m-0 vh-80 row justify-content-center align-items-center">
+                        <div className="col-auto text-center">
+                            <img className="img-fluid" src={login} alt="Reservas" />
                         </div>
                     </div>
 
-                    <div className="col-md-6 style_hover text-center">
-                        <h2>Reserva tu momento especial</h2>
+                    <div className="col-md-6 m-0  style_hover vh-80 row justify-content-center align-items-center">
+                        <div className="col-auto text-center">
+                            <h2>Reserva tu momento especial</h2>
 
-                        {/* creamos el formulario */}
-                        <form onSubmit={procesar} >
+                            {/* creamos el formulario */}
+                            <form onSubmit={procesar} >
 
-                            <div className="form-floating mb-1 styles_forms">
-                                <input type="text" value={data.nombre_completo} onChange={rename} className="form-control" id="nombre_completo" placeholder="Digite su nombre" />
-                                <label for="floatingPassword">Nombre Completo</label>
-                            </div>
+                                <div className="form-floating mb-2 styles_forms">
+                                    <input type="text" value={data.nombre_completo} onChange={rename} className="form-control" id="nombre_completo" placeholder="Digite su nombre" />
+                                    <label for="floatingPassword">Nombre Completo</label>
+                                </div>
 
-                            <div className="form-floating mb-1">
-                                <input type="email" value={data.email} onChange={changedirection} className="form-control" id="email" placeholder="name@example.com" />
-                                <label for="floatingInput">Email address</label>
-                            </div>
+                                <div className="form-floating mb-2">
+                                    <input type="email" value={data.email} onChange={changedirection} className="form-control" id="email" placeholder="name@example.com" />
+                                    <label for="floatingInput">Email address</label>
+                                </div>
 
-                            <div className="form-floating mb-1">
-                                <input type="number" value={data.cantidad_personas} onChange={numberpeople} className="form-control" id="cantidad_personas" placeholder="Cantidad de personas" />
-                                <label for="floatingPassword">Cantidad de personas</label>
-                            </div>
+                                <div className="form-floating mb-2">
+                                    <input type="number" value={data.cantidad_personas} onChange={numberpeople} className="form-control" id="cantidad_personas" placeholder="Cantidad de personas" />
+                                    <label for="floatingPassword">Cantidad de personas</label>
+                                </div>
 
-                            <div className="form-floating mb-1">
-                                <input type="date" value={data.fechareserva} onChange={reservationdate} className="form-control" id="fechareserva" placeholder="Fecha reserva" />
-                                <label for="floatingPassword">Fecha de la Reserva</label>
-                            </div>
+                                <div className="form-floating mb-2">
+                                    <input type="date" value={data.fechareserva} onChange={reservationdate} className="form-control" id="fechareserva" placeholder="Fecha reserva" />
+                                    <label for="floatingPassword">Fecha de la Reserva</label>
+                                </div>
 
-                            <button type="submit" className="btn btn-light">Reservar</button>
+                                <button type="submit" className="btn btn-light">Reservar</button>
 
-                        </form>
+                            </form>
+                        </div>
                     </div>
-
                 </div>
                 {/* <h2>Datos ingresados</h2>
                 <ul>
