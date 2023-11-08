@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Tangerine&display=swap');
 
 :root {
-    --color_primario: #e5826d;
-    --fondo_color_logo: #323637;
-    --color_titulos: #8f6741;
-    --blanco_fondo: #fbfcfe;
-    --blanco_frontal: #ffffff;
-    --tipografia_principal: 'tangerine';
-    --Alumni: 'Alumni Sans Pinstripe', sans-serif;
-    --Big: 'Big Shoulders Display', cursive;
-    --Wire: 'Wire One', sans-serif;
-    /* 1280x500 -> Medida para las imagnes */
+  --color_primario: #e5826d;
+  --fondo_color_logo: #323637;
+  --color_titulos: #8f6741;
+  --blanco_fondo: #fbfcfe;
+  --blanco_frontal: #ffffff;
+  --tipografia_principal: 'tangerine';
+  --Alumni: 'Alumni Sans Pinstripe', sans-serif;
+  --Big: 'Big Shoulders Display', cursive;
+  --Wire: 'Wire One', sans-serif;
+  /* 1280x500 -> Medida para las imagnes */
 }
 
 * {
@@ -19,26 +19,22 @@
   box-sizing: border-box;
 }
 
-html {
-  min-height: 100%;
-  position: relative;
-}
-
 
 body {
-  margin: 0;
-  margin-bottom:10px;
-background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-
+  position: relative;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  padding-bottom: 120px;
+  min-height: 100vh;
 }
 
-.container .primary_title{
+
+.container .primary_title {
   font-family: var(--tipografia_principal);
   font-size: 70px;
 }
 
-.container .secondary_title{
+.container .secondary_title {
   font-family: var(--Alumni);
   font-size: 35px;
 }
@@ -71,19 +67,20 @@ nav {
 }
 
 /* estilos tarjetas */
-.card-img-overlay{
+.card-img-overlay {
   color: rgb(255, 255, 255);
   text-align: center;
   top: 25%;
 
 }
-.card-img-overlay h4{
+
+.card-img-overlay h4 {
   background-color: #00000064;
   font-family: var(--Alumni);
   font-size: 40px;
 }
 
-.card-img-overlay a{
+.card-img-overlay a {
   font-family: var(--Alumni);
   font-size: 20px;
 }
@@ -92,29 +89,28 @@ nav {
 
 
 /* estilos navbar */
-nav img{
+nav img {
   width: 70px;
 
 }
 
 /* estilos Container Jumbotron*/
-.backgroundhome{
-background: rgb(33,37,41);
-background: linear-gradient(180deg, rgba(33,37,41,1) 14%, rgba(153,30,177,1) 100%);
+.backgroundhome {
+  background: rgb(33, 37, 41);
+  background: linear-gradient(180deg, rgba(33, 37, 41, 1) 14%, rgba(153, 30, 177, 1) 100%);
 }
 
 
-footer .style_footer{
-
-  background-color: white;
-  color: #636a6ffc;
-
+/* estilos footer */
+.footer {
+  background-color: rgb(255, 255, 255);
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: auto;
+  /* height: auto; */
+
 }
 
-footer img{
-  width: 100px;
+.footer ul li {
+  font-size: 25px;
 }

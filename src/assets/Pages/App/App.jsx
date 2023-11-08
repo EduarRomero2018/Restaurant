@@ -9,7 +9,7 @@ import Login from "../LogIn/Login";
 import MyOrders from "../MyOrders/MyOrders";
 // import MenuFood from "../MenuFood/MenuFood";
 import AboutUs from "../AboutUs/AboutUs";
-// import Footer from '../../Components/Footer';
+import Footer from '../../Components/Footer';
 
 // creamos un array de objetos con las rutas a enlazar
 const AppRoutes = () => {
@@ -32,8 +32,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
+
       <AppRoutes />
-      {/* <Footer/> */}
+
+      <Footer/>
     </BrowserRouter>
 
   );
