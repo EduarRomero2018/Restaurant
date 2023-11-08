@@ -7,7 +7,7 @@ import NotFound from "../../Components/NotFound";
 import {Home} from "../Home/Home";
 import Login from "../LogIn/Login";
 import MyOrders from "../MyOrders/MyOrders";
-import MenuFood from "../MenuFood/MenuFood";
+// import MenuFood from "../MenuFood/MenuFood";
 import AboutUs from "../AboutUs/AboutUs";
 // import Footer from '../../Components/Footer';
 
@@ -17,7 +17,7 @@ const AppRoutes = () => {
   let routesElements = useRoutes([
     { path: "/", element: <Home /> },
     { path: "/login", element: <Login /> },
-    { path: "/menu", element: <MenuFood /> },
+    // { path: "/menu", element: <MenuFood /> },
     { path: "/myorders", element: <MyOrders /> },
     { path: "/QuienesSomos", element: <AboutUs /> },
     { path: "/*", element: <NotFound /> },
