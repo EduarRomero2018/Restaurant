@@ -3,14 +3,13 @@ import { useRoutes, BrowserRouter } from 'react-router-dom';
 // importamos los componentes
 import Navbar from "../../Components/Navbar";
 import NotFound from "../../Components/NotFound";
-import { CiBookmarkPlus } from "react-icons/ci";
 // importamos las paginas
-import Home from "../Home/Home";
+import {Home} from "../Home/Home";
 import Login from "../LogIn/Login";
 import MyOrders from "../MyOrders/MyOrders";
-import Categories from "../Category/Categories";
+import MenuFood from "../MenuFood/MenuFood";
 import AboutUs from "../AboutUs/AboutUs";
-import Footer from '../../Components/Footer';
+// import Footer from '../../Components/Footer';
 
 // creamos un array de objetos con las rutas a enlazar
 const AppRoutes = () => {
@@ -18,7 +17,7 @@ const AppRoutes = () => {
   let routesElements = useRoutes([
     { path: "/", element: <Home /> },
     { path: "/login", element: <Login /> },
-    { path: "/Categories", element: <Categories /> },
+    { path: "/menu", element: <MenuFood /> },
     { path: "/myorders", element: <MyOrders /> },
     { path: "/QuienesSomos", element: <AboutUs /> },
     { path: "/*", element: <NotFound /> },

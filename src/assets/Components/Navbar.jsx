@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg bg-white">
             <div className="container-fluid">
                 <header>
-                    <img src={Logo} alt="Logo Restaurant" className="img-fluid"/>
+                    <img src={Logo} alt="Logo Restaurant" className="img-fluid" />
                 </header>
                 <a className="navbar-brand" href="#">Restaurant</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,8 +19,9 @@ const Navbar = () => {
                         <NavLink to="/" className="nav-link">Inicio</NavLink>
                         <NavLink to="./Login" className="nav-link">Reservar</NavLink>
                         <NavLink to="./QuienesSomos" className="nav-link">Quienes Somos</NavLink>
-                        <NavLink to="./MyOrders" className="nav-link">Mis Ordenes</NavLink>
-                        {/* <NavLink to="./Categories" className="nav-link">Categorias</NavLink> */}
+                        <NavLink to="./MyOrders" className="nav-link">Ver Reservas</NavLink>
+                        <NavLink to="./Menu" className="nav-link">Menú</NavLink>
+
                     </ul>
                 </div>
             </div>
