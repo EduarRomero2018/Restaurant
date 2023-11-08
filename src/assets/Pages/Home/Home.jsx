@@ -17,7 +17,7 @@ export const Home = () => {
   return (
     <>
       <div className=" container p-3 backgroundhome text-white rounded ">
-        <h1 className='text-center primary_title'>Bienvenido a Mapale </h1>
+        <h1 className='text-center primary_title'>Bienvenido a Mapalé </h1>
         <p className='text-center secondary_title'>Aplicación realizada con React</p>
       </div>
 
